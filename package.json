@@ -15,7 +15,7 @@
     "src/",
     "lib/"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "弱い表現を禁止するtextlintルール",
   "main": "lib/textlint-rule-ja-no-weak-phrase.js",
   "directories": {
