@@ -40,6 +40,17 @@ tester.run("textlint-rule-ja-no-weak-phrase", rule, {
                     column: 4
                 }
             ]
+        },
+        {
+            text: `またNode.jsで使われているCommonJSやES6 Modulesなどがなかった時代に作られた仕組みなので、
+それらと組み合わせる際には少し不向きな拡張の仕組みといえるかもしれません。`,
+            errors: [
+                {
+                    message: `弱い表現: "かも" が使われています。`,
+                    line: 2,
+                    column: 30
+                }
+            ]
         }
     ]
 });
