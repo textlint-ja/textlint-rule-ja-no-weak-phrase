@@ -1,6 +1,6 @@
-# textlint-rule-ja-no-weak-phrase
+# textlint-rule-ja-no-weak-phrase [![Build Status](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase)
 
-弱い表現の利用を禁止するtextlintルール
+弱い日本語表現の利用を禁止する[textlint](http://textlint.github.io/ "textlint")ルール
 
 - 〜かもしれない
 - 〜と思う
