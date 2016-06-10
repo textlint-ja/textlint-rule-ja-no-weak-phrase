@@ -1,5 +1,7 @@
 # textlint-rule-ja-no-weak-phrase [![Build Status](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase)
 
+[![Join the chat at https://gitter.im/textlint-ja/textlint-rule-ja-no-weak-phrase](https://badges.gitter.im/textlint-ja/textlint-rule-ja-no-weak-phrase.svg)](https://gitter.im/textlint-ja/textlint-rule-ja-no-weak-phrase?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 弱い日本語表現の利用を禁止する[textlint](http://textlint.github.io/ "textlint")ルール
 
 - 〜かもしれない
