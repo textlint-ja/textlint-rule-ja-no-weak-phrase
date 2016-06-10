@@ -1,4 +1,4 @@
-# textlint-rule-ja-no-weak-phrase [![Build Status](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-ja-no-weak-phrase)
+# textlint-rule-ja-no-weak-phrase [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-weak-phrase.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-weak-phrase)
 
 弱い日本語表現の利用を禁止する[textlint](http://textlint.github.io/ "textlint")ルール
 
@@ -38,7 +38,7 @@ textlint --rule ja-no-weak-phrase README.md
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/textlint-rule-ja-no-weak-phrase/releases).
+See [Releases page](https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/releases).
 
 ## Running tests
 
@@ -49,7 +49,7 @@ Install devDependencies and Run `npm test`:
 ## Contributing
 
 Pull requests and stars are always welcome.
-For bugs and feature requests, [please create an issue](https://github.com/azu/textlint-rule-ja-no-weak-phrase/issues).
+For bugs and feature requests, [please create an issue](https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

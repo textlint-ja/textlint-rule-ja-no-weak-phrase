@@ -2,14 +2,14 @@
   "name": "textlint-rule-ja-no-weak-phrase",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/textlint-rule-ja-no-weak-phrase.git"
+    "url": "https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/textlint-rule-ja-no-weak-phrase",
+  "homepage": "https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/textlint-rule-ja-no-weak-phrase/issues"
+    "url": "https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/issues"
   },
   "files": [
     "src/",
