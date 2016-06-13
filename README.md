@@ -4,10 +4,12 @@
 
 - 〜かもしれない
 - 〜と思う
-- 〜と思います。
+- 〜と思います
 - 可能性を示唆する
 
-など
+などを禁止するルールです。
+
+主張を言い切るような表現を使うことを推奨するためのルールです。
 
 ## Install
 
@@ -35,6 +37,8 @@ textlint --rule ja-no-weak-phrase README.md
 
 - [continuous-manual-writing/writing-guideline: 「ドキュメント作成システム構築ガイド」の執筆者が従う規約](https://github.com/continuous-manual-writing/writing-guideline "continuous-manual-writing/writing-guideline: 「ドキュメント作成システム構築ガイド」の執筆者が従う規約")
 - [卒・修論に見られる良くない表現](https://www.sci.hokudai.ac.jp/~minobe/class/bad_expressions.htm "卒・修論に見られる良くない表現")
+- [理科系の作文技術](https://ja.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%B3%BB%E3%81%AE%E4%BD%9C%E6%96%87%E6%8A%80%E8%A1%93 "理科系の作文技術")
+    - はっきり言い切る姿勢
 
 ## Changelog
 
