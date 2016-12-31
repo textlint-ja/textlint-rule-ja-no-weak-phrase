@@ -34,9 +34,6 @@
     "textlintrule"
   ],
   "devDependencies": {
-    "babel-preset-jsdoc-to-assert": "^2.0.1",
-    "babel-preset-power-assert": "^1.0.0",
-    "power-assert": "^1.4.1",
     "textlint-scripts": "^1.2.2"
   },
   "dependencies": {
