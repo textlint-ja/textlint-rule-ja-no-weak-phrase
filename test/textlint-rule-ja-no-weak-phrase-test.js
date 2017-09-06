@@ -12,12 +12,22 @@ tester.run("textlint-rule-ja-no-weak-phrase", rule, {
     invalid: [
         // single match
         {
-            text: "弱いかもしれない",
+            text: "問題があるかも。",
             errors: [
                 {
                     message: `弱い表現: "かも" が使われています。`,
                     line: 1,
-                    column: 3
+                    column: 6
+                }
+            ]
+        },
+        {
+            text: "私は弱いかもしれない。",
+            errors: [
+                {
+                    message: `弱い表現: "かも" が使われています。`,
+                    line: 1,
+                    column: 5
                 }
             ]
         },

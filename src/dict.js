@@ -1,6 +1,7 @@
 module.exports = [
     {
         "message": `弱い表現: "かも" が使われています。`,
+        // https://azu.github.io/morpheme-match/?text=問題がある(かも。)
         "tokens": [
             {
                 "surface_form": "かも",
@@ -13,8 +14,51 @@ module.exports = [
                 "basic_form": "かも",
                 "reading": "カモ",
                 "pronunciation": "カモ"
+            },
+            {
+                "surface_form": "。",
+                "pos": "記号",
+                "pos_detail_1": "句点",
+                "pos_detail_2": "*",
+                "pos_detail_3": "*",
+                "conjugated_type": "*",
+                "conjugated_form": "*",
+                "basic_form": "。",
+                "reading": "。",
+                "pronunciation": "。"
             }
         ]
+    },
+    {
+        "message": `弱い表現: "かも" が使われています。`,
+        // https://azu.github.io/morpheme-match/?text=私は弱い(かもしれ)ない
+        "tokens": [
+            {
+                "surface_form": "かも",
+                "pos": "助詞",
+                "pos_detail_1": "副助詞",
+                "pos_detail_2": "*",
+                "pos_detail_3": "*",
+                "conjugated_type": "*",
+                "conjugated_form": "*",
+                "basic_form": "かも",
+                "reading": "カモ",
+                "pronunciation": "カモ"
+            },
+            {
+                "surface_form": "しれ",
+                "pos": "動詞",
+                "pos_detail_1": "自立",
+                "pos_detail_2": "*",
+                "pos_detail_3": "*",
+                "conjugated_type": "一段",
+                "conjugated_form": ["連用形", "未然形"],
+                "basic_form": "しれる",
+                "reading": "シレ",
+                "pronunciation": "シレ"
+            }
+        ]
+
     },
     {
         "message": `弱い表現: "思う" が使われています。`,
