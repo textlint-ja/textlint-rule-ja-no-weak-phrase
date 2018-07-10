@@ -34,10 +34,10 @@
     "textlintrule"
   ],
   "devDependencies": {
-    "textlint-scripts": "^1.2.2"
+    "textlint-scripts": "^1.4.2"
   },
   "dependencies": {
-    "kuromojin": "^1.3.1",
+    "kuromojin": "^1.4.0",
     "morpheme-match": "^1.0.1",
     "morpheme-match-all": "^1.1.0"
   }
