@@ -7,7 +7,9 @@ const rule = require("../src/textlint-rule-ja-no-weak-phrase");
 // ruleName, rule, { valid, invalid }
 tester.run("textlint-rule-ja-no-weak-phrase", rule, {
     valid: [
-        "コレは弱くない"
+        "コレは弱くない",
+        // https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/issues/4
+        "どう工夫したのかも書いてみてください"
     ],
     invalid: [
         // single match
