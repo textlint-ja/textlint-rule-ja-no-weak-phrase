@@ -2,9 +2,9 @@
 "use strict";
 const tokenize = require("kuromojin").tokenize;
 const dictionaryList = require("./dict");
-const createTokenMatcher = require("morpheme-match-all");
-const matchAll = createTokenMatcher(dictionaryList);
-module.exports = function(context) {
+const { createMatcher } = require("morpheme-match-all");
+const matchAll = createMatcher(dictionaryList);
+module.exports = function (context) {
     const { Syntax, RuleError, report, getSource } = context;
     return {
         [Syntax.Str](node) {
