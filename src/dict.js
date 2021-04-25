@@ -1,4 +1,4 @@
-module.exports = [
+export default [
     {
         "message": `弱い表現: "かも" が使われています。`,
         // https://azu.github.io/morpheme-match/?text=問題がある(かも。)

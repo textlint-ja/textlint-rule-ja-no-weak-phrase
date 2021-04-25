@@ -1,10 +1,10 @@
 // LICENSE : MIT
 "use strict";
-const tokenize = require("kuromojin").tokenize;
-const dictionaryList = require("./dict");
-const { createMatcher } = require("morpheme-match-all");
+import { tokenize } from "kuromojin";
+import dictionaryList from "./dict";
+import { createMatcher } from "morpheme-match-all";
 const matchAll = createMatcher(dictionaryList);
-module.exports = function (context) {
+export default function (context) {
     const { Syntax, RuleError, report, getSource } = context;
     return {
         [Syntax.Str](node) {
