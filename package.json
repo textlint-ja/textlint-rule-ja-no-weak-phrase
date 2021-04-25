@@ -37,7 +37,7 @@
     "textlint-scripts": "^3.0.0"
   },
   "dependencies": {
-    "kuromojin": "^2.0.0",
+    "kuromojin": "^3.0.0",
     "morpheme-match": "^2.0.4",
     "morpheme-match-all": "^2.0.5"
   }

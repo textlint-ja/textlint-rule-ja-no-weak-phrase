@@ -1,4 +1,4 @@
-# textlint-rule-ja-no-weak-phrase [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-weak-phrase.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-ja-no-weak-phrase)
+# textlint-rule-ja-no-weak-phrase [![Actions Status: test](https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/workflows/test/badge.svg)](https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/actions?query=workflow%3A"test")
 
 弱い日本語表現の利用を禁止する[textlint](http://textlint.github.io/ "textlint")ルール
 

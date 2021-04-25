@@ -1,13 +1,14 @@
 // LICENSE : MIT
 "use strict";
-const TextLintTester = require("textlint-tester");
+import TextLintTester from "textlint-tester";
+import rule from "../src/textlint-rule-ja-no-weak-phrase";
+
 const tester = new TextLintTester();
-// rule
-const rule = require("../src/textlint-rule-ja-no-weak-phrase");
 // ruleName, rule, { valid, invalid }
 tester.run("textlint-rule-ja-no-weak-phrase", rule, {
     valid: [
         "コレは弱くない",
+        "これは弱くないと思われますがどうですか?",
         // https://github.com/textlint-ja/textlint-rule-ja-no-weak-phrase/issues/4
         "どう工夫したのかも書いてみてください"
     ],
@@ -61,6 +62,26 @@ tester.run("textlint-rule-ja-no-weak-phrase", rule, {
                     message: `弱い表現: "かも" が使われています。`,
                     line: 2,
                     column: 30
+                }
+            ]
+        },
+        {
+            text: "重大な意義を持つと思います。",
+            errors: [
+                {
+                    message: `弱い表現: "思います" が使われています。`,
+                    index: 9
+                }
+            ]
+        },
+        {
+            text: "この結果はそのような可能性を示唆している。",
+            errors: [
+                {
+                    message: `弱い表現: "可能性を示唆している" が使われています。
+「可能性がある」または「. . . を示唆している」を利用してください。
+弱い表現を二つ重ねることはしないでください。`,
+                    index: 10
                 }
             ]
         }
